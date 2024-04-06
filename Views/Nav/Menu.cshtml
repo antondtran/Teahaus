@@ -1,0 +1,41 @@
+@model List<TeahausWebApp.Models.Item>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Items</title>
+  <link rel="stylesheet" href="~/css/menu.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <h1>Menu Items</h1>
+  </header>
+  <div class="services-container">
+    <ul class="services-list">
+      @foreach (var item in Model)
+      {
+        <li class="service-item">
+          <div class="service-title">@item.ItemName @item.ItemPrice</div>
+          
+          @if (User.Identity.IsAuthenticated)
+          {
+              <div>
+                  <a href="/Nav/Edit/@item.Id">Edit</a>
+                  <form asp-action="Delete" asp-route-id="@item.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                      <button type="submit">Delete</button>
+                  </form>
+              </div>
+          }
+        </li>
+      }
+    </ul>
+  </div>
+</body>
+<footer>
+</footer>
+</html>

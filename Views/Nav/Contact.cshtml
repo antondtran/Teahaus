@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="~/css/contact.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZOOrGX7e2fgTobJE5mYQe8XackdeF6xg&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+    <link rel="stylesheet" href="~/css/map.css"/>
+    
+</head>
+<body>
+  
+    <header class="header">
+        <h1>Contact Us</h1>
+    </header>
+    <div class="contact-container">
+        <div class="address">
+            <h2>Address</h2>
+            <p>1311 George Washington Way<br>Richland, WA 99354</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Info</h2>
+            <p>Phone: (509) 943-1697</p>
+        </div>
+        <div class="opening-hours">
+            <h2>Opening Hours</h2>
+            <p>Monday: 10:30am - 5pm<br>
+              Tuesday-Friday: 10am - 7pm<br>
+             Saturday: 10am - 6pm<br>
+          Sunday: Closed</p>
+        </div>
+    </div>
+    <gmp-map center="46.28664779663086,-119.27543640136719" zoom="14" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="46.28664779663086,-119.27543640136719" title="My location"></gmp-advanced-marker>
+    </gmp-map>
+</body>
+</html>

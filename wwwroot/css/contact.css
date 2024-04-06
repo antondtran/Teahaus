@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.header {
+    background-color: #cbaf9d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-container {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address,
+.contact-info,
+.opening-hours {
+    flex: 0 0 calc(33.33% - 20px);
+}
+
+.address h2,
+.contact-info h2,
+.opening-hours h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+
