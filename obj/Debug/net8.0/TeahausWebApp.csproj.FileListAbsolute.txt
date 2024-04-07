@@ -259,3 +259,4 @@
 /Users/antontran/TeahausTriCities/TeahausWebApp/TeahausWebApp/obj/Debug/net8.0/TeahausWebApp.pdb
 /Users/antontran/TeahausTriCities/TeahausWebApp/TeahausWebApp/obj/Debug/net8.0/TeahausWebApp.genruntimeconfig.cache
 /Users/antontran/TeahausTriCities/TeahausWebApp/TeahausWebApp/obj/Debug/net8.0/ref/TeahausWebApp.dll
+/Users/antontran/TeahausTriCities/TeahausWebApp/TeahausWebApp/obj/Debug/net8.0/TeahausWebApp.sourcelink.json

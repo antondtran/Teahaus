@@ -1,0 +1,20 @@
+/* styles.css */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum and maximum width of each column */
+    gap: 20px; /* Adjust the gap between images */
+  }
+  
+  .image {
+    width: 100%; /* Ensure images fill their containers */
+    height: 300px; /* Set a fixed height for each image */
+    overflow: hidden; /* Hide any overflow to prevent distortion */
+  }
+  
+  .image img {
+    width: 100%; /* Ensure images fill their containers */
+    height: 100%; /* Ensure images fill their containers */
+    object-fit: cover; /* Ensure images cover their containers while maintaining aspect ratio */
+  }
+  

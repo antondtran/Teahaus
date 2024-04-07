@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeahausWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcbffa215209891dd03370a6997efa39cb36b1d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeahausWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeahausWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
